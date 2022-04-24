@@ -15,43 +15,29 @@ const socialList = [
     type: 'github',
     color: 'inherit',
     icon: IconGithub,
-    label: 'GitHub: YunYouJun',
-    href: 'https://github.com/YunYouJun',
-  },
-  {
-    type: 'telegram',
-    color: '#1da1f2',
-    icon: IconTelegram,
-    label: 'Telegram Channel',
-    href: 'https://t.me/elpsycn',
+    label: 'GitHub: uyuwei',
+    href: 'https://github.com/uyuwei',
   },
   {
     type: 'weibo',
     color: '#DB2828',
     icon: IconSinaWeibo,
-    label: '微博：机智的云游君',
-    href: 'http://weibo.com/jizhideyunyoujun',
+    label: '微博：uyuwei',
+    href: 'http://weibo.com/uyuwei',
   },
   {
     type: 'twitter',
     color: '#1da1f2',
     icon: IconTwitter,
-    label: 'Twitter: YunYouJun',
-    href: 'https://twitter.com/YunYouJun',
-  },
-  {
-    type: 'wechat',
-    color: '#1AAD19',
-    icon: IconWechat,
-    label: '微信公众号：云游君',
-    href: 'https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/about/white-qrcode-and-search.jpg',
+    label: 'Twitter: uyuwei',
+    href: 'https://twitter.com/uyuwei',
   },
   {
     type: 'blog',
     color: '#6435C9',
     icon: IconEarth,
-    label: '博客：yunyoujun.cn',
-    href: 'http://www.yunyoujun.cn',
+    label: '博客：余慰.中国',
+    href: 'http://xn--zqqw45b.xn--fiqs8s/',
   },
 ]
 
@@ -60,20 +46,13 @@ export const Copyright: React.FC = () => {
     <div>
       <p className="text-center text-xs">
         {'© '}
-        <a href={pkg.repository.url} target="_blank" rel="noreferrer">
-          Yun Air Conditioner
-        </a>
         <IconButton
           sx={{ color: '#0078e7' }}
-          href="https://sponsors.yunyoujun.cn"
+          href="http://xn--zqqw45b.xn--fiqs8s/home/money_receiving_QR_code/"
           target="_blank"
         >
           <IconCloud style={{ fontSize: '1rem' }} />
         </IconButton>
-        &nbsp;
-        <a href={pkg.author.url} target="_blank" rel="noreferrer">
-          云游君 @{pkg.author.name}
-        </a>
       </p>
       <p className="text-center text-xs">
         {`2019 - ${new Date().getFullYear()}`}
