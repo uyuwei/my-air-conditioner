@@ -34,15 +34,7 @@ export const ProTip: React.FC = () => {
       }}
     >
       <EmojiObjectsOutlinedIcon />
-      Tip: 为你的夏日带去
-      {import.meta.env.VITE_DISABLE_ADSENSE
-        ? (
-          '清凉'
-        )
-        : (
-          <AdsenseLink text="清凉" />
-        )}
-      ！
+      Tip: 为你的夏日带去清凉！
     </p>
   )
 }
