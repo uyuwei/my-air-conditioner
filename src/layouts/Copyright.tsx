@@ -45,7 +45,6 @@ export const Copyright: React.FC = () => {
   return (
     <div>
       <p className="text-center text-xs">
-        {'© '}
         <IconButton
           sx={{ color: '#0078e7' }}
           href="http://xn--zqqw45b.xn--fiqs8s/home/money_receiving_QR_code/"
